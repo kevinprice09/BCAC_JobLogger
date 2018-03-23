@@ -20,6 +20,7 @@ namespace BCAC
         public override void DidReceiveMemoryWarning()
         {
             base.DidReceiveMemoryWarning();
+            Console.WriteLine("Test");
             // Release any cached data, images, etc that aren't in use.
         }
     }
